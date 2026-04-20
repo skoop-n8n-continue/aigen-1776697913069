@@ -1,12 +1,12 @@
 :root {
-    --primary: #00ffc2; /* Carbon Mint */
-    --accent: #8b5cf6;  /* Electric Violet */
-    --dark: #0a0b10;    /* Inky Black */
-    --surface: #161b22; /* Surface Charcoal */
-    --secondary: #6e7681;
-    --white: #f0f6fc;
-    --bg-gradient: radial-gradient(circle at top left, #1a1b26 0%, #0a0b10 100%);
-    --btn-bg: rgba(255, 255, 255, 0.03);
+    --primary: #ffcc00; /* Cyber Yellow */
+    --accent: #ff9500;  /* Electric Amber */
+    --dark: #0a0a05;    /* Deep Charcoal with yellow hint */
+    --surface: #1a1a15; /* Surface Dark */
+    --secondary: #8e8e8e;
+    --white: #ffffff;
+    --bg-gradient: radial-gradient(circle at top left, #2a2a10 0%, #0a0a05 100%);
+    --btn-bg: rgba(255, 255, 255, 0.05);
 }
 
 * {
@@ -56,7 +56,7 @@ body {
     left: -50%;
     width: 200%;
     height: 200%;
-    background: radial-gradient(circle at center, rgba(139, 92, 246, 0.05) 0%, transparent 50%);
+    background: radial-gradient(circle at center, rgba(255, 149, 0, 0.08) 0%, transparent 50%);
     pointer-events: none;
 }
 
@@ -85,7 +85,7 @@ body {
     font-size: 3.5rem;
     font-weight: 800;
     color: var(--primary);
-    text-shadow: 0 0 20px rgba(0, 255, 194, 0.3);
+    text-shadow: 0 0 20px rgba(255, 204, 0, 0.4);
 }
 
 .grid {
@@ -120,7 +120,7 @@ body {
     background: var(--primary);
     color: var(--dark);
     transform: scale(0.92);
-    box-shadow: 0 0 30px rgba(0, 255, 194, 0.5);
+    box-shadow: 0 0 30px rgba(255, 204, 0, 0.6);
     border-color: var(--primary);
 }
 
@@ -132,18 +132,18 @@ body {
 
 .btn.op {
     color: var(--accent);
-    background: rgba(139, 92, 246, 0.05);
+    background: rgba(255, 149, 0, 0.08);
 }
 
 .btn.equal {
-    background: linear-gradient(135deg, var(--primary) 0%, #00d1a7 100%);
+    background: linear-gradient(135deg, var(--primary) 0%, #e6b800 100%);
     color: var(--dark);
-    box-shadow: 0 10px 20px -5px rgba(0, 255, 194, 0.4);
+    box-shadow: 0 10px 20px -5px rgba(255, 204, 0, 0.4);
 }
 
 .btn.equal:hover {
     filter: brightness(1.1);
-    box-shadow: 0 15px 30px -5px rgba(0, 255, 194, 0.5);
+    box-shadow: 0 15px 30px -5px rgba(255, 204, 0, 0.5);
 }
 
 @media (max-width: 480px) {
